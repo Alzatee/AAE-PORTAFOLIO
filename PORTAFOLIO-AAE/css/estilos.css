@@ -1,0 +1,289 @@
+.AAE-conten-page {
+  width: 100%;
+}
+.AAE-conten-page .AAE-header-nav {
+  width: 100%;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  color: grayNav;
+  position: fixed;
+  z-index: 1000;
+  padding: 10px;
+}
+.AAE-conten-page .AAE-header-nav a {
+  color: #ccc;
+}
+.AAE-conten-one {
+  background-image: url("../images/fondo-inicio.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.AAE-conten-one .AAE-conten-title {
+  min-height: 100vh;
+}
+.AAE-conten-one h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 73px;
+  text-align: center;
+  font-weight: 100;
+  font-style: italic;
+  color: #fff;
+  line-height: 90%;
+}
+.AAE-conten-one h2 span {
+  color: #fc3;
+  font-weight: 300;
+}
+.AAE-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 23px;
+  text-align: center;
+}
+.AAE-conten {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.AAE-conten-two {
+  width: 100%;
+  background-color: #f3f3f3;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+}
+.AAE-conten-two h6 {
+  padding: 5px;
+}
+.AAE-conten-two .AAE-sect-one {
+  min-height: 7vh;
+  background-color: #222;
+  color: #f3f3f3;
+  margin: 0 -15px 0 -15px;
+}
+.AAE-conten-two .AAE-sect-two {
+  min-height: 25vh;
+  background-color: #333;
+  margin: 0 -15px 0 -15px;
+  color: #ccc;
+  padding: 30px 13% 0px 13%;
+}
+.AAE-conten-two .AAE-sect-two h6 {
+  color: #f9ba46;
+  padding: 5px;
+}
+.AAE-conten-two .AAE-sect-three {
+  min-height: 25vh;
+  background-color: #f9ba46;
+  margin: 0 -15px 0 -15px;
+  color: #f3f3f3;
+  border-bottom: 1vh solid #62707d;
+  padding: 20px 13% 0px 13%;
+  color: #333;
+}
+.AAE-conten-two .AAE-sect-four {
+  min-height: 40vh;
+  margin: 0 -12px 0 -12px;
+  color: #222;
+  text-align: center;
+  padding: 7px;
+}
+.AAE-conten-two .AAE-sect-four .AAE-conten-iconSpam {
+  width: 150px;
+  height: 150px;
+  padding: 25px;
+  border: 3px solid #222;
+  border-radius: 200px;
+}
+.AAE-conten-two .AAE-sect-four img {
+  width: 150px;
+}
+.AAE-conten-two .AAE-sect-four p {
+  padding: 0px 50px 0px 50px;
+  font-size: 16px;
+}
+.AAE-conten-three {
+  width: 100%;
+  background-color: #333;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  color: #ccc;
+  overflow: hidden;
+  text-align: center;
+}
+.AAE-conten-three .AAE-info-responsive {
+  margin-top: 10%;
+}
+.AAE-conten-three .AAE-info-responsive h6 {
+  padding: 45px;
+}
+.AAE-conten-three .AAE-info-responsive img {
+  width: 450px;
+}
+.AAE-conten-three .AAE-info-responsive .AAE-responsiveImg-tablet {
+  width: 200px;
+  margin-top: -90px;
+  margin-left: 55%;
+}
+.AAE-conten-three .AAE-info-responsive .AAE-responsiveImg-cel {
+  margin-top: -120px;
+  width: 100px;
+}
+.AAE-conten-three .AAE-info-responsive p {
+  padding: 20px;
+}
+.AAE-conten-three .AAE-info-skulls {
+  margin-top: 10%;
+  width: 450px;
+}
+.AAE-conten-three .AAE-info-skulls .progress {
+  margin: 11px;
+  background-color: #62707d;
+}
+.AAE-conten-three .AAE-info-skulls h6 {
+  padding: 45px;
+}
+.AAE-conten-three .AAE-info-skulls h5 {
+  font-size: 15px;
+  text-align: left;
+}
+.AAE-conten-three .AAE-info-skulls button {
+  background-color: #73608c;
+  color: #ccc;
+  margin: 20px;
+}
+.AAE-conten-three .AAE-decorator {
+  width: 100%;
+  background-color: #f9ba46;
+  height: 15vh;
+}
+.AAE-conten-four {
+  min-height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/cohete.png");
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  color: #ccc;
+  text-align: center;
+}
+.AAE-conten-four h6 {
+  margin: 70px;
+}
+.AAE-conten-four .AAE-content-services {
+  background-color: #333;
+  border-radius: 20px;
+  width: 250px;
+  padding: 15px;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.AAE-conten-four .AAE-content-services .AAE-items-services {
+  background-color: #fff;
+  border-radius: 200px;
+  width: 115px;
+  height: 115px;
+  padding: 20px;
+}
+.AAE-conten-four .AAE-content-services .AAE-items-services .fab {
+  color: #f35a59;
+}
+.AAE-conten-four .AAE-content-services .AAE-items-services .fas {
+  color: #0190d9;
+}
+.AAE-conten-four .AAE-content-services .AAE-items-services .far {
+  color: #fc3;
+  margin: 2px 0 0 -5px;
+}
+.AAE-conten-four .AAE-content-services p {
+  margin: 10px;
+}
+.AAE-conten-four .AAE-content-services p span {
+  color: #0190d9;
+}
+.AAE-conten-four .AAE-text-services {
+  margin: 3% 17% 3% 17%;
+}
+.AAE-conten-five {
+  min-height: 100vh;
+  background-color: #181818;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 19px;
+  color: #ccc;
+  text-align: center;
+}
+.AAE-conten-five .carousel.slide {
+  margin: 62px -15px 0px -15px;
+}
+.AAE-conten-five .carousel.slide .item-proyects {
+  width: 400px;
+  height: 200px;
+}
+.AAE-conten-five h6 {
+  margin-top: 200px;
+}
+.AAE-conten-five p {
+  margin: 10%;
+}
+.AAE-conten-five p span {
+  color: #669;
+}
+.AAE-conten-five .carousel-control-prev-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #73608c;
+}
+.AAE-conten-five .carousel-control-next-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #73608c;
+}
+.AAE-footer {
+  background-color: #1b1e24;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  color: #62707d;
+  text-align: center;
+  padding: 30px;
+}
+.AAE-footer a {
+  color: #62707d;
+  text-decoration: none;
+}
+.AAE-footer .AAE-footer-aae {
+  padding: 20px;
+}
+.AAE-footer button {
+  width: 100%;
+  background-color: #669;
+  color: #ccc;
+}
+.AAE-footer .AAE-ig-content-list {
+  margin-left: -40px;
+}
+.AAE-footer .AAE-ig-content-list .AAE-ig-links-footer {
+  list-style: none;
+}
+.AAE-footer .AAE-ig-content-list .AAE-ig-links-footer li {
+  margin-top: 10px;
+}
+.AAE-footer .AAE-footer-end {
+  margin: 20px -30px -30px -30px;
+  min-height: 7vh;
+  background-color: #121418;
+  padding-top: 15px;
+}
+.AAE-footer .AAE-footer-end p {
+  font-size: 14px;
+  padding: 5px;
+}
+.AAE-footer .AAE-footer-end a {
+  padding: 5px;
+}
