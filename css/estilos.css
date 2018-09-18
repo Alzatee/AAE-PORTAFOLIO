@@ -284,3 +284,11 @@
 .AAE-footer .AAE-footer-end a {
   padding: 5px;
 }
+#fp-nav ul li a span,
+#menu-line,
+.fp-slidesNav ul li a span {
+  background: #fff;
+}
+.fp-tableCell {
+  vertical-align: baseline;
+}
