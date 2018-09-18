@@ -3,15 +3,25 @@
 }
 .AAE-conten-page .AAE-header-nav {
   width: 100%;
-  background-color: transparent;
   border-bottom: 1px solid rgba(255,255,255,0.2);
   color: grayNav;
   position: fixed;
   z-index: 1000;
-  padding: 10px;
 }
 .AAE-conten-page .AAE-header-nav a {
   color: #ccc;
+}
+.AAE-conten-page .AAE-header-nav .AAE-logo-menu img {
+  margin: 12px;
+  width: 200px;
+  transition: 0.4s;
+}
+.AAE-conten-page .AAE-header-nav .AAE-logo-menu .AAE-header-logo-add {
+  width: 140px;
+}
+.AAE-conten-page .AAE-header-nav-add {
+  background-color: #222;
+  border-bottom: 1px solid rgba(20,20,20,0.2);
 }
 .AAE-conten-one {
   background-image: url("../images/fondo-inicio.jpg");
