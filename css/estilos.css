@@ -64,31 +64,28 @@
   margin: 0 -15px 0 -15px;
 }
 .AAE-conten-two .AAE-sect-two {
-  min-height: 25vh;
   background-color: #333;
   margin: 0 -15px 0 -15px;
   color: #ccc;
-  padding: 30px 13% 0px 13%;
+  padding: 30px 13% 20px 13%;
 }
 .AAE-conten-two .AAE-sect-two h6 {
   color: #f9ba46;
   padding: 5px;
 }
 .AAE-conten-two .AAE-sect-three {
-  min-height: 25vh;
   background-color: #f9ba46;
   margin: 0 -15px 0 -15px;
   color: #f3f3f3;
   border-bottom: 1vh solid #62707d;
-  padding: 20px 13% 0px 13%;
+  padding: 30px 13% 20px 13%;
   color: #333;
 }
 .AAE-conten-two .AAE-sect-four {
-  min-height: 40vh;
   margin: 0 -12px 0 -12px;
   color: #222;
   text-align: center;
-  padding: 7px;
+  padding: 7px 0% 7px 0%;
 }
 .AAE-conten-two .AAE-sect-four .AAE-conten-iconSpam {
   width: 150px;
@@ -161,7 +158,6 @@
   height: 15vh;
 }
 .AAE-conten-four {
-  min-height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -171,6 +167,7 @@
   font-size: 19px;
   color: #ccc;
   text-align: center;
+  padding: 20px 30px 10px 20px;
 }
 .AAE-conten-four h6 {
   margin: 70px;
@@ -210,7 +207,6 @@
   margin: 3% 17% 3% 17%;
 }
 .AAE-conten-five {
-  min-height: 100vh;
   background-color: #181818;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
