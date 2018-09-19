@@ -231,6 +231,10 @@
 .AAE-conten-five .carousel.slide .item-proyects {
   width: 400px;
   height: 200px;
+  overflow: hidden;
+}
+.AAE-conten-five .carousel.slide .item-proyects img {
+  width: 100%;
 }
 .AAE-conten-five h6 {
   margin-top: 200px;
