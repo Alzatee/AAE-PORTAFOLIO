@@ -1,3 +1,4 @@
+//Menu animate
 $(document).ready(function(){
     window.addEventListener("scroll", function(){
         if (this.scrollY >= 50){
@@ -9,3 +10,4 @@ $(document).ready(function(){
         }
     }, false);
 });
+
