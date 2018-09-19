@@ -18,7 +18,6 @@ $(document).ready(function () {
           direction: 'vertical',
         });
       },
-      // Reforzar 
       afterResize: function() {
         var movimiento_scroll_img = $('.AAE-background-parallax');
         movimiento_scroll_img.paroller({
