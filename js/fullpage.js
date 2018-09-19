@@ -32,6 +32,8 @@ $(document).ready(function () {
 //Para conectar el menú nav hay que agregarle a los <a> en el href la id de la sección ej: <a href="#Inicio"
 //Las ids están nombradas en este archivo en Tooltips
 
+//Para poner un section más pequeño o con tamaño que espesifique, agregar al section la clase fp-auto-height luego de la clase section, como está el footer en el html
+
 
 
 
