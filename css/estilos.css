@@ -8,7 +8,10 @@
   position: fixed;
   z-index: 1000;
 }
-.AAE-conten-page .AAE-header-nav a {
+.AAE-conten-page .AAE-header-nav .navbar-brand {
+  display: none;
+}
+.AAE-conten-page .AAE-header-nav .nav-item a {
   color: #ccc;
 }
 .AAE-conten-page .AAE-header-nav .AAE-logo-menu img {
@@ -315,4 +318,17 @@
 }
 .mfp-force-scrollbars .mfp-close {
   position: fixed;
+}
+@media screen and (max-width: 767px) {
+  .AAE-conten-five h6 {
+    margin-top: 45px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .AAE-header-nav {
+    background-color: #222;
+  }
+  .AAE-header-nav .nav-item {
+    display: none;
+  }
 }
