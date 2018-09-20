@@ -227,6 +227,7 @@
   font-size: 19px;
   color: #ccc;
   text-align: center;
+  overflow: hidden;
 }
 .AAE-conten-five .carousel.slide {
   margin: 62px -15px 0px -15px;
