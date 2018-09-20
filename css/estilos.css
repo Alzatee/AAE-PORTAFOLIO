@@ -13,6 +13,7 @@
 }
 .AAE-conten-page .AAE-header-nav .nav-item a {
   color: #ccc;
+  transition: 0.1s;
 }
 .AAE-conten-page .AAE-header-nav .AAE-logo-menu img {
   margin: 12px;
@@ -312,6 +313,15 @@
 }
 .AAE-footer .AAE-footer-end a {
   padding: 5px;
+}
+.AAE-footer .AAE-footer-end .fa-twitter:hover {
+  color: #1da1f2;
+}
+.AAE-footer .AAE-footer-end .fa-whatsapp:hover {
+  color: #1ebea5;
+}
+.AAE-footer .AAE-footer-end .fa-linkedin:hover {
+  color: #0077b5;
 }
 #fp-nav ul li a span,
 #menu-line,
