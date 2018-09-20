@@ -1,6 +1,6 @@
 $(document).ready(function () {
   var size = screen.width
-//  if (size >= '1024') { //SOLO FUNCIONARÁ EL FULL PAGE EN DISPOSITIVOS GRANDES, COMPUTADORAS
+  if (size >= '1024') { //SOLO FUNCIONARÁ EL FULL PAGE EN DISPOSITIVOS GRANDES, COMPUTADORAS
     $('#AAE-fullpage').fullpage({
       anchors: ['Inicio', 'Sobre_mi', 'Información', 'Servicios', 'Proyectos', 'Pie'],//Nombres de las secciones en la url
       navigation: true, //Show barra navegación
@@ -27,7 +27,7 @@ $(document).ready(function () {
         });
       }
     });
-//  }
+  }
 });
 //Para conectar el menú nav hay que agregarle a los <a> en el href la id de la sección ej: <a href="#Inicio"
 //Las ids están nombradas en este archivo en Tooltips
