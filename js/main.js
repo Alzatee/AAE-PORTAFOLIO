@@ -65,7 +65,7 @@ $(document).ready(function(){
 
     if (size < '767') {
         window.addEventListener("scroll", function(){
-            if (this.scrollY >= 2000){
+            if (this.scrollY >= 2500){
                 $(".AAE-responsiveImg-pc").fadeIn(700);
                 $(".AAE-responsiveImg-tablet").delay(500).fadeIn(700);
                 $(".AAE-responsiveImg-cel").delay(1000).fadeIn(700);
