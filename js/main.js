@@ -46,19 +46,37 @@ $(document).ready(function(){
     });
 
     //Animaciones de la sección de habilidades, responsive
-    window.addEventListener("scroll", function(){
-        if (this.scrollY >= 1200){
-            $(".AAE-responsiveImg-pc").fadeIn(700);
-            $(".AAE-responsiveImg-tablet").delay(500).fadeIn(700);
-            $(".AAE-responsiveImg-cel").delay(1000).fadeIn(700);
-            $(".AAE-ocult-text").delay(700).fadeIn(1500)
-        }else{
-            $(".AAE-responsiveImg-pc").hide();
-            $(".AAE-responsiveImg-tablet").hide();
-            $(".AAE-responsiveImg-cel").hide();;
-            $(".AAE-ocult-text").hide();
-        }
-    }, false);
+    var size = screen.width
+    if (size >= '767') {
+        window.addEventListener("scroll", function(){
+            if (this.scrollY >= 1200){
+                $(".AAE-responsiveImg-pc").fadeIn(700);
+                $(".AAE-responsiveImg-tablet").delay(500).fadeIn(700);
+                $(".AAE-responsiveImg-cel").delay(1000).fadeIn(700);
+                $(".AAE-ocult-text").delay(700).fadeIn(1500)
+            }else{
+                $(".AAE-responsiveImg-pc").hide();
+                $(".AAE-responsiveImg-tablet").hide();
+                $(".AAE-responsiveImg-cel").hide();;
+                $(".AAE-ocult-text").hide();
+            }
+        }, false);
+    }
 
+    if (size < '767') {
+        window.addEventListener("scroll", function(){
+            if (this.scrollY >= 2000){
+                $(".AAE-responsiveImg-pc").fadeIn(700);
+                $(".AAE-responsiveImg-tablet").delay(500).fadeIn(700);
+                $(".AAE-responsiveImg-cel").delay(1000).fadeIn(700);
+                $(".AAE-ocult-text").delay(700).fadeIn(1500)
+            }else{
+                $(".AAE-responsiveImg-pc").hide();
+                $(".AAE-responsiveImg-tablet").hide();
+                $(".AAE-responsiveImg-cel").hide();;
+                $(".AAE-ocult-text").hide();
+            }
+        }, false);
+    }
 });
 
