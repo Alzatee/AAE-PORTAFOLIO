@@ -62,7 +62,7 @@ $(document).ready(function(){
     //A escala de dispositivos móviles
     if (size < '767') {
         window.addEventListener("scroll", function(){
-            if (this.scrollY >= 2300){
+            if (this.scrollY >= 2200){
                 $(".AAE-responsiveImg-pc").fadeIn(700);
                 $(".AAE-responsiveImg-tablet").delay(500).fadeIn(700);
                 $(".AAE-responsiveImg-cel").delay(1000).fadeIn(700);
