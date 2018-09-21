@@ -15,7 +15,6 @@ $(document).ready(function(){
         type: 'image',
         closeBtnInside: false,
         closeOnContentClick: false,
-    
     callbacks: {
       open: function() {
         var self = this;
@@ -28,21 +27,19 @@ $(document).ready(function(){
         this.wrap.removeClass('mfp-force-scrollbars');
       }
     },
-     
     image: {
             verticalFit: false
         }
     });
     //Final galeria
 
-    //Ancla movil
+    //Ancla en dispositivos móviles
     $('.AAE-ancle-up').click(function(e){				
 		e.preventDefault();		//evitar el eventos del enlace normal
 		var strAncla=$(this).attr('href'); //id del ancla
 			$('body,html').stop(true,true).animate({				
 				scrollTop: $(strAncla).offset().top
 			},1000);
-		
     });
 
     //Animaciones de la sección de habilidades, responsive
@@ -62,10 +59,10 @@ $(document).ready(function(){
             }
         }, false);
     }
-
+    //A escala de dispositivos móviles
     if (size < '767') {
         window.addEventListener("scroll", function(){
-            if (this.scrollY >= 2500){
+            if (this.scrollY >= 2300){
                 $(".AAE-responsiveImg-pc").fadeIn(700);
                 $(".AAE-responsiveImg-tablet").delay(500).fadeIn(700);
                 $(".AAE-responsiveImg-cel").delay(1000).fadeIn(700);
