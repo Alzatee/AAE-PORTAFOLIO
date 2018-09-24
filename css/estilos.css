@@ -448,6 +448,11 @@
     margin-top: 30px;
     display: block;
   }
+  .AAE-conten-five .carousel-indicators,
+  .AAE-conten-five .carousel-control-prev,
+  .AAE-conten-five .carousel-control-next {
+    display: none;
+  }
 }
 @media screen and (max-width: 991px) {
   .AAE-header-nav {

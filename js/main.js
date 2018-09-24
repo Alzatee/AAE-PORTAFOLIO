@@ -75,5 +75,10 @@ $(document).ready(function(){
             }
         }, false);
     }
+    //Remove carousel
+    if (size < '767') {
+        $(".carousel-item").removeClass("carousel-item")
+    }
+
 });
 
