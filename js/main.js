@@ -34,8 +34,8 @@ $(document).ready(function(){
     //Final galeria
 
     //Ancla en dispositivos móviles
-    $('.AAE-ancle-up').click(function(e){				
-		e.preventDefault();		//evitar el eventos del enlace normal
+    $('.AAE-ancle-up').click(function(anclaMovile){				
+		anclaMovile.preventDefault();		//evitar el eventos del enlace normal
 		var strAncla=$(this).attr('href'); //id del ancla
 			$('body,html').stop(true,true).animate({				
 				scrollTop: $(strAncla).offset().top
@@ -44,7 +44,7 @@ $(document).ready(function(){
 
     //Animaciones de la sección de habilidades, responsive
     var size = screen.width
-    if (size >= '767') {
+    if (size >= '767') { 
         window.addEventListener("scroll", function(){
             if (this.scrollY >= 1200){
                 $(".AAE-responsiveImg-pc").fadeIn(700);
@@ -79,6 +79,5 @@ $(document).ready(function(){
     if (size < '767') {
         $(".carousel-item").removeClass("carousel-item")
     }
-
 });
 

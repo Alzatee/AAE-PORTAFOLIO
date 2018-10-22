@@ -62,6 +62,34 @@
   color: #fc3;
   font-weight: 300;
 }
+.AAE-conten-one .AAE-social-var .AAE-bar-social {
+  padding: 10px;
+  transition: 0.2s;
+}
+.AAE-conten-one .AAE-social-var .AAE-bar-social:hover {
+  padding: 18px;
+  border-radius: 5px;
+}
+.AAE-conten-one .AAE-social-var .AAE-bar-social:hover i {
+  font-size: 25px;
+  margin: 10px;
+}
+.AAE-conten-one .AAE-social-var .AAE-bar-social i {
+  font-size: 22px;
+  color: #222;
+}
+.AAE-conten-one .AAE-social-var .AAE-bar-linkeding {
+  background-color: #0077b5;
+}
+.AAE-conten-one .AAE-social-var .AAE-bar-twitter {
+  background-color: #1da1f2;
+}
+.AAE-conten-one .AAE-social-var .AAE-bar-whatsapp {
+  background-color: #1ebea5;
+}
+.AAE-conten-one .AAE-social-var .AAE-bar-mail {
+  background-color: #00cbff;
+}
 .AAE-title {
   font-family: "Roboto", sans-serif;
   font-weight: 100;

@@ -29,6 +29,8 @@ $(document).ready(function () {
     });
   }
 });
+
+
 //Para conectar el menú nav hay que agregarle a los <a> en el href la id de la sección ej: <a href="#Inicio"
 //Las ids están nombradas en este archivo en Tooltips
 

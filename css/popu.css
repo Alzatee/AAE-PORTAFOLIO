@@ -261,10 +261,12 @@
   to {
     opacity: 1;
   }
-  
+}
+
   /* The shadow behind the image */
   .mfp-figure {
-    line-height: 0; }
+    line-height: 0; 
+  }
     .mfp-figure:after {
       content: '';
       position: absolute;
