@@ -107,6 +107,10 @@
   padding: 25px 13% 20px 13%;
   color: #333;
 }
+.AAE-conten-two .card {
+  background-color: #f3f3f3;
+  margin: 5px;
+}
 .AAE-conten-two .AAE-sect-four {
   min-height: 40vh;
   margin: 0 -12px 0 -12px;
@@ -118,7 +122,7 @@
   width: 150px;
   height: 150px;
   padding: 25px;
-  border: 3px solid #222;
+  border: 2px solid #222;
   border-radius: 200px;
 }
 .AAE-conten-two .AAE-sect-four img {
@@ -128,6 +132,9 @@
   padding: 0px 50px 0px 50px;
   margin-top: -5px;
   font-size: 16px;
+}
+.AAE-conten-two .AAE-sect-four h6 {
+  border-bottom: 1px solid #f1f1f1;
 }
 @-webkit-keyframes pulse {
   from {
