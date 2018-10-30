@@ -62,34 +62,6 @@
   color: #fc3;
   font-weight: 300;
 }
-.AAE-conten-one .AAE-social-var .AAE-bar-social {
-  padding: 10px;
-  transition: 0.2s;
-}
-.AAE-conten-one .AAE-social-var .AAE-bar-social:hover {
-  padding: 18px;
-  border-radius: 5px;
-}
-.AAE-conten-one .AAE-social-var .AAE-bar-social:hover i {
-  font-size: 25px;
-  margin: 10px;
-}
-.AAE-conten-one .AAE-social-var .AAE-bar-social i {
-  font-size: 22px;
-  color: #222;
-}
-.AAE-conten-one .AAE-social-var .AAE-bar-linkeding {
-  background-color: #0077b5;
-}
-.AAE-conten-one .AAE-social-var .AAE-bar-twitter {
-  background-color: #1da1f2;
-}
-.AAE-conten-one .AAE-social-var .AAE-bar-whatsapp {
-  background-color: #1ebea5;
-}
-.AAE-conten-one .AAE-social-var .AAE-bar-mail {
-  background-color: #00cbff;
-}
 .AAE-title {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
@@ -225,6 +197,25 @@
 .AAE-conten-three .AAE-info-skulls {
   margin-top: 10%;
   width: 450px;
+}
+.AAE-conten-three .AAE-info-skulls .AAE-info-ux {
+  width: 92%;
+  height: 100%;
+  background-color: #222;
+  position: absolute;
+  border-radius: 50px;
+  margin-left: 650px;
+  display: none;
+}
+.AAE-conten-three .AAE-info-skulls .AAE-info-ux .aae-carrera-ux-body p {
+  padding: 5px 30px 30px 30px;
+}
+.AAE-conten-three .AAE-info-skulls .AAE-info-ux .aae-carrera-ux-body .AAE-frase {
+  font-size: 12px;
+  padding: 0px 35px 35px 35px;
+}
+.AAE-conten-three .AAE-info-skulls .AAE-info-ux .aae-carrera-ux-body .btn {
+  margin: 5px;
 }
 .AAE-conten-three .AAE-info-skulls .progress {
   margin: 11px;
@@ -480,5 +471,8 @@
   }
   .AAE-conten-one .AAE-ancle-up {
     display: block;
+  }
+  .AAE-info-ux .btn {
+    padding: 5px;
   }
 }

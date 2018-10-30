@@ -79,5 +79,21 @@ $(document).ready(function(){
     if (size < '767') {
         $(".carousel-item").removeClass("carousel-item")
     }
+
+    //Sección de estudios Online
+    $("#AAE-estudios-online").click(function(){
+        $(".AAE-info-ux").show();
+        $(".AAE-info-ux").animate({
+            marginLeft: "-0.1px",
+        },500);
+    });
+    $("#AAE-volver-skulls").click(function(){
+        $(".AAE-info-ux").animate({
+            marginLeft: "650px"
+        });
+        $(".AAE-info-ux").delay(250).hide(0)
+    });
+    
+
 });
 
