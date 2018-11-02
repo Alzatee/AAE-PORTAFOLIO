@@ -9,6 +9,9 @@ $(document).ready(function () {
       scrollBar: true,//Mostrar scroll bar
       scrollingSpeed: 1200,
 
+      afterLoad: function(anchorLink, index) {//ESCONDER HAST Y URL
+        history.pushState(null, null, "index.html");
+      },
       //Movimiento de la imagen de fondo al hacer scroll
       afterRender: function (index, nextIndex, direction) {
         var movimiento_scroll_img = $('.AAE-background-parallax');

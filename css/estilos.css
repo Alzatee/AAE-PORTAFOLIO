@@ -58,7 +58,7 @@
   color: #fff;
   line-height: 90%;
 }
-.AAE-conten-one h2 span {
+.AAE-conten-one span {
   color: #fc3;
   font-weight: 300;
 }
@@ -219,7 +219,7 @@
 }
 .AAE-conten-three .AAE-info-skulls .AAE-info-ux .aae-carrera-ux-body .AAE-frase {
   font-size: 12px;
-  padding: 0px 35px 35px 35px;
+  padding: 35px 35px 35px 35px;
 }
 .AAE-conten-three .AAE-info-skulls .AAE-info-ux .aae-carrera-ux-body .btn {
   margin: 5px;
@@ -307,7 +307,7 @@
   margin: 62px -15px 0px -15px;
 }
 .AAE-conten-five .carousel.slide .item-proyects {
-  width: 400px;
+  width: 370px;
   height: 200px;
   overflow: hidden;
 }
