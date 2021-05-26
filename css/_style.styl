@@ -1,8 +1,15 @@
+canvas 
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    z-index: 10;
+    
 .AAE-conten-page
     width 100%
     .AAE-header-nav
         width 100%
-        border-bottom 1px solid rgba(255, 255, 255, 0.2);
         color grayNav 
         position fixed
         z-index 1000
@@ -13,12 +20,18 @@
                 color grayBase
                 transition: 0.1 s
         .AAE-logo-menu
+            a
+                text-decoration: none;
             img 
                 margin: 12px
-                width: 200px
+                width: 60px
                 transition: 0.4s
+            span
+                color: yellowDark
+                font-weight: 100
+                font-size: 25px;
             .AAE-header-logo-add 
-                width: 140px
+                width: 40px
 
 .AAE-header-nav-add
     background-color: grayDark
@@ -45,41 +58,50 @@
         color: whiteGray
         border-radius: 200px
         display: none
-    h2 
+    h2
         font-family "Lato", sans-serif
-        font-size 73px
+        font-size 60px
         text-align center
         font-weight 100 
         font-style italic
         color whiteLight
         line-height 90%
-    span  
+    span
         color yellowLight
         font-weight 300
-        //SOCIAL BAR
-    // .AAE-social-var
-    //     .AAE-bar-social 
-    //         padding 15px
-    //         transition: 0.2s
-    //         border-radius: 300px
-    //         &:hover
-    //             padding: 18px
-    //             border-radius: 5px
-    //             i   
-    //                 font-size: 25px
-    //                 margin 10px
-    //         i 
-    //             font-size 22px
-    //             color grayDark
+    .personal-photo
+        position: absolute
+        z-index: 200
+        top: 27%;
+        border-radius: 15px;
+        overflow: hidden;
+        img
+            width: 210px;
+    //SOCIAL BAR
+    .AAE-social-var
+        .AAE-bar-social 
+            color: #f3f3f3
+            padding 12px
+            transition: 0.2s
+            border-radius: 300px
+            &:hover
+                padding: 17px
+                border-radius: 5px
+                em
+                    font-size: 20px
+                    margin 10px
+            em 
+                font-size 20px
+                color: #f3f3f3;
 
-    //     .AAE-bar-linkeding
-    //         background-color #0077B5
-    //     .AAE-bar-twitter
-    //         background-color #1DA1F2        
-    //     .AAE-bar-whatsapp
-    //         background-color #1ebea5
-    //     .AAE-bar-mail
-    //         background-color: #00CBFF
+        .AAE-bar-linkeding
+            background-color #0077B5
+            animation: pulse-btn 2s infinite;        
+        .AAE-bar-whatsapp
+            background-color #1ebea5
+            animation: pulse-btn 2s infinite;   
+        .AAE-bar-mail
+            background-color: #00CBFF
 
 
 .AAE-title 
@@ -94,14 +116,13 @@
     padding-left: 15px;
 .AAE-conten-two
     width: 100% 
-    background-color whiteGray 
     font-family: "Roboto", sans-serif
     font-weight: 300
     font-size: 19px
     h6 
         padding: 5px
     .AAE-sect-one
-        min-height 7vh 
+        min-height 10vh 
         background-color grayDark
         color whiteGray
         margin 0 -15px 0 -15px
@@ -109,16 +130,16 @@
         background-color grayMaterialize
         margin 0 -15px 0 -15px
         color grayBase
-        padding 20px 10% 20px 10%
+        padding 10px 10% 10px 10%
         h6 
             color: yellowDark
-            padding: 5px
+            padding: 0px
     .AAE-sect-three
         background-color yellowDark
         margin 0 -15px 0 -15px
         color whiteGray
         border-bottom: 1vh solid bluegray
-        padding 25px 13% 20px 13%
+        padding 10px 13% 10px 13%
         color: grayMaterialize
     .card
         background-color: #f3f3f3
@@ -129,9 +150,10 @@
         color grayDark
         text-align center
         padding: 20px 0px 20px 0px
+        border: none
         .AAE-conten-iconSpam
-            width: 150px
-            height 150px
+            width: 120px
+            height 120px
             padding: 25px
             border 2px solid grayDark
             border-radius: 200px
@@ -141,6 +163,7 @@
             padding: 0px 50px 0px 50px
             margin-top -5px
             font-size 16px 
+            margin-bottom: 0px
         h6  
             border-bottom: 1px solid #f1f1f1
 
@@ -219,9 +242,28 @@
     .AAE-info-skulls
         margin-top 10%
         width 450px 
-        .AAE-info-ux
+        .section-skills
+            height: 365px;
+            overflow: hidden;
+            overflow-y: auto;
+        /* Scrollbar Styling */
+        .section-skills::-webkit-scrollbar {
+            width: 10px;
+        }
+        .section-skills::-webkit-scrollbar-track {
+            background-color: #ebebeb;
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+        }
+        .section-skills::-webkit-scrollbar-thumb {
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+            background: #6d6d6d; 
+        }
+        .AAE-info-ux, .AAE-info-experience
             width: 92%
             height 100%
+            z-index 200
             background-color: grayDark
             position: absolute
             border-radius: 50px
@@ -247,11 +289,20 @@
         button 
             background-color purpleMaterialize
             color grayBase
-            margin 20px
+            margin-top 20px
+            &:focus
+                outline 0
+        button.info-btn
+            width: 100%
+        button.info-btn.experience-btn
+            animation: pulse-btn 2s infinite;
+
     .AAE-decorator 
         width 100%
         background-color yellowDark
         height 15vh
+        z-index: 300
+        position relative
 
 .AAE-conten-four 
     width 100%
@@ -310,7 +361,7 @@
             img  
                 width: 100%
     h6 
-        margin-top 200px
+        margin-top: 25%;
     p 
         margin 10%
         span 
@@ -359,9 +410,6 @@
             padding: 5px
         a 
             padding: 5px
-        .fa-twitter 
-            &:hover
-                color #1DA1F2
         .fa-whatsapp
             &:hover 
                 color #1ebea5
@@ -369,7 +417,9 @@
             &:hover 
                 color #0077B5
 
-//color circle nav / fullpage            
+//color circle nav / fullpage  
+#fp-nav
+    z-index 1000          
 #fp-nav ul li a span, #menu-line, .fp-slidesNav ul li a span 
     background whiteLight
 .fp-tableCell //dejar alineación por default
@@ -387,3 +437,29 @@
     position: fixed
 
 
+@keyframes pulse-btn {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(111,71,142, 0.6);
+    box-shadow: 0 0 0 0 rgba(111,71,142, 0.6);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 15px rgba(111,71,142, 0);
+      box-shadow: 0 0 0 15px rgba(111,71,142, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(111,71,142, 0);
+      box-shadow: 0 0 0 0 rgba(111,71,142, 0);
+  }
+}
+
+@-webkit-keyframes pulse-btn {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(111,71,142, 1);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 15px rgba(111,71,142, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(111,71,142, 0);
+  }
+}

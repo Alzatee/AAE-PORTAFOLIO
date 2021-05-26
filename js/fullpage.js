@@ -3,10 +3,10 @@ $(document).ready(function () {
   if (size >= '1024') { //SOLO FUNCIONARÁ EL FULL PAGE EN DISPOSITIVOS GRANDES, COMPUTADORAS
     $('#AAE-fullpage').fullpage({
       anchors: ['Inicio', 'Sobre_mi', 'Información', 'Servicios', 'Proyectos', 'Pie'],//Nombres de las secciones en la url
-      navigation: true, //Show barra navegación
+      navigation: true, //barra navegación
       navigationPosition: 'right',//Posición barra de navegación
       navigationTooltips: ['Inicio', 'Sobre mi', 'Información', 'Servicios', 'Proyectos', 'Pie'],//Nombres barra de navegación
-      scrollBar: true,//Mostrar scroll bar
+      scrollBar: true,
       scrollingSpeed: 1200,
 
       afterLoad: function(anchorLink, index) {//ESCONDER HAST Y URL
