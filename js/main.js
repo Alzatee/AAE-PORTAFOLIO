@@ -201,7 +201,6 @@ $(document).ready(function(){
         $(".AAE-info-ux").animate({
             marginLeft: "-0.1px",
         },500);
-        showInfoModal('.AAE-info-ux');
     });
     $("#AAE-volver-skulls").click(function(){
         $(".AAE-info-ux").animate({ 
@@ -216,7 +215,6 @@ $(document).ready(function(){
       $(".AAE-info-experience").animate({
           marginLeft: "-0.1px",
       },500);
-      showInfoModal('.AAE-info-experience');
     });
     $("#AAE-volver-skulls-two").click(function(){
         $(".AAE-info-experience").animate({ 
