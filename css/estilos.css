@@ -348,7 +348,7 @@ canvas {
   padding: 20px;
 }
 .AAE-conten-four h6 {
-  margin: 70px;
+  margin: 25px;
 }
 .AAE-conten-four .AAE-content-services {
   background-color: #333;
@@ -628,10 +628,13 @@ canvas {
 }
 @media screen and (max-width: 991px) {
   .AAE-header-nav {
-    background-color: #222;
+     background-color: #2222221f;
   }
   .AAE-header-nav .nav-item {
     display: none;
+  }
+  .AAE-conten-one {
+    background-position: unset;
   }
   .AAE-conten-one .AAE-ancle-up {
     display: block;
