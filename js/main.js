@@ -1,4 +1,9 @@
 $(document).ready(function(){
+    // Obtener el año actual
+    const currentYear = new Date().getFullYear();
+    // Insertar el año en el elemento con id "year"
+    document.getElementById('year').textContent = currentYear;
+
     /* --- BLOOB ANIMATION INICIO --- */
     const TWO_PI = Math.PI * 2;
     const HALF_PI = Math.PI / 2;
